@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = "https://github.com/IAFEnvoy/RandomLibrary/issues"
+license = "All Right Reserved"
+
+[[mods]]
+modId = "random_library"
+version = "${version}"
+displayName = "Random Library"
+authors = "IAFEnvoy"
+description = '''
+A library for my random series mods.
+'''
+logoFile = "logo.png"
+
+[[dependencies.random_library]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.random_library]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.random_library]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"
